@@ -1,58 +1,40 @@
-# Lab 2 - Github Repo Finder
+# Lab 3 - *Github Repo Finder*
 
-**Github Repo Finder** is an app using the [Github Search API](https://developer.github.com/v3/search/#search-repositories).
+**Github Repo Finder** is a GitHub Repo search app using the [GitHub API](https://developer.github.com/v3/search/#search-repositories).
 
-Time spent: **13** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [x] User can view a list of repos
-- [x] User can search a list of repos
-- [x] User can filter by number of stars
-- [ ] User can filter by language - *this is incomplete*
-
-The following **optional** features are implemented:
-
-- [ ] Implement search options to match text in repo's name, description, or README
-- [ ] Add sorting options based on stars, forks, or relevance
-- [ ] Add option to search repos created after a certain date
-- [ ] Implement an interface to filter based on any of the [languages available](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) on Github
+- [x] Table rows for search results should be dynamic height according to the content height.
+- [x] Custom cells should have the proper Auto Layout constraints.
 
 The following **additional** features are implemented:
 
-N/A
+- [ ] List anything else that you can get done to improve the app functionality!
+
+Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
+
+1.
+2.
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories.
+Here's a walkthrough of implemented user stories:
 
-![Github Repo Search GIF](./github.gif "Github Repo Search")
+<img src='Codepath.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Libraries
-
-- CocoaPods
-    - AFNetworking
-    - MBProgressHUD
-
 ## Notes
 
-Challenges:
-
-- Not able to get filter by languages working
-
-Concepts demonstrated:
-
-- Table view cells automatically resize
-- Auto Layout
-- Modal settings view
+Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright 2016 Andrew Tsao
+    Copyright [2017] [Akhil Agrawal]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
